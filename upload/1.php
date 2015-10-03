@@ -6,7 +6,7 @@
 <body>
 <?php
 ini_set("display_errors", "1");
-$uploaddir = "http://".$_SERVER["HTTP_HOST"].dirname($_SERVER["PHP_SELF"])."/upload/file";
+$uploaddir = "http://".$_SERVER["HTTP_HOST"].dirname($_SERVER["PHP_SELF"])."/upload/file/";
 $uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
 echo '<pre>';
 if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
