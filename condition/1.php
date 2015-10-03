@@ -2,4 +2,3 @@
 if(true){
 	echo 'result : true';
 }
- ?>
