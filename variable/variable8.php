@@ -8,6 +8,7 @@
 define('TITLE', 'PHP Tutorial');
 echo TITLE;
 define('TITLE', 'JAVA Turorial');
+echo TITLE; //It will give error: Constant TITLE already defined ...
  ?>
 </body>
 </html>
